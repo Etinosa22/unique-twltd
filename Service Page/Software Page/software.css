@@ -1,0 +1,48 @@
+.soft-sect {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.soft-box1 {
+    width: 50%;
+    padding: 10px;
+}
+
+.soft-box2 {
+    width: 50%;
+}
+
+.soft-box1 img {
+    width: 100%;
+}
+
+.soft-box2 p{
+    font-size: 1.5em;
+    line-height: 35px;
+    padding-left: 15px;
+}
+
+@media (max-width: 850px) {
+    .soft-sect {
+        display: block;
+    }
+
+    .soft-box1 {
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .soft-box2 {
+        width: 100%;
+        text-align: justify;        
+    }
+
+    .soft-box2 p{
+        font-size: 1.2em;
+        line-height: 25px;
+        padding: 0;
+    }
+}

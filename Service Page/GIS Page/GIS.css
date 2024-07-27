@@ -1,0 +1,51 @@
+.GIS-sect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.GIS-box1 {
+    width: 50%;
+    padding: 10px;
+}
+
+.GIS-box2 {
+    width: 50%;
+}
+
+.GIS-box1 img {
+    width: 75%;
+}
+
+.GIS-box2 p{
+    font-size: 1.5em;
+    line-height: 35px;
+    padding-left: 1px;
+}
+
+@media (max-width: 950px) {
+    .GIS-sect {
+        display: block;
+    }
+
+    .GIS-box1 {
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .GIS-box1 img {
+        width: 100%;
+    }
+
+    .GIS-box2 {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .GIS-box2 p {
+        font-size: 1.3em;
+        line-height: 30px;
+    }
+}

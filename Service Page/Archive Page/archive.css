@@ -1,0 +1,62 @@
+.arch-sect {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 50px;
+}
+
+.arch1-box {
+    width: 35%;
+    padding: 10px;
+}
+
+.arch2-box {
+    width: 50%;
+}
+
+.arch1-box img {
+    width: 100%;
+}
+
+.arch2-box p {
+    font-size: 1.5em;
+    line-height: 35px;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.arch2-box ul li {
+    margin-top: 8px;
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+
+
+@media (max-width: 950px) {
+    .arch-sect {
+        display: block;
+    }
+
+    .arch1-box {
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .arch2-box {
+        width: 90%;
+        text-align: justify;
+        margin: 10px auto;
+    }
+
+    .arch2-box p {
+        font-size: 1.3em;
+        line-height: 30px;
+    }
+
+    .arch2-box ul li {
+        font-size: 1.3em;
+    }
+
+    
+}

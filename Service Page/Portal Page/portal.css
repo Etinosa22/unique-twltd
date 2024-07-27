@@ -1,0 +1,51 @@
+.port-sect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.port-box1 {
+    width: 50%;
+    padding: 10px;
+}
+
+.port-box2 {
+    width: 50%;
+}
+
+.port-box1 img {
+    width: 75%;
+}
+
+.port-box2 p{
+    font-size: 1.5em;
+    line-height: 35px;
+    padding-left: 1px;
+}
+
+@media (max-width: 950px) {
+    .port-sect {
+        display: block;
+    }
+
+    .port-box1 {
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .port-box1 img {
+        width: 100%;
+    }
+
+    .port-box2 {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .port-box2 p {
+        font-size: 1.3em;
+        line-height: 30px;
+    }
+}
