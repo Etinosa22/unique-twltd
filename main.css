@@ -495,7 +495,10 @@ hr {
 
 
 @media (max-width: 950px) {
- 
+  body {
+    overflow-x: hidden;
+  }
+
   header {
     height: auto;
   }
@@ -660,9 +663,9 @@ hr {
 
   .box2 p {
     font-size: 1.2em;
-    text-align: justify;
-    line-height: 22px;
-    font-weight: 500;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 400;
     margin: 15px auto;
   }
 
@@ -686,7 +689,7 @@ hr {
 
   .service_cont {
     margin: 10px auto;
-    min-height: 370px;
+    min-height: 550px;
     width: 100%;
   }
 
@@ -718,11 +721,11 @@ hr {
 
   .service_box2 p {
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 400;
     margin: 10px auto;
     padding: 0 5px;
-    line-height: 20px;
-    text-align: justify;
+    line-height: 25px;
+    text-align: center;
     width: 90%;
     margin-bottom: 30px;
   }
@@ -767,7 +770,7 @@ hr {
     font-size: 1.3em;
     margin: 0 auto;
     margin-bottom: 20px;
-    text-align: justify;
+    text-align: center;
     width: 95%;
   }
 
@@ -791,11 +794,9 @@ hr {
     width: 100%;
     margin: 10px auto;
   }
+
+  .logo1 img {
+    width: 45%;
+  }
 }
 
-@media (max-width:850px) {
-   .container {
-    
-   }
-   
-}

@@ -144,6 +144,19 @@ section.fade-up.visible {
 
     .about-box {
         width: 95%;
-        margin: 15px auto;
+        margin:auto;
+    }
+
+    .about-box h1  {
+        font-size:2.2em;
+    }
+
+    .about-box h2 {
+        font-size: 2.2em;
+    }
+
+    .about-box p {
+        font-size: 1.2em;
+        text-align: justify;
     }
 }
