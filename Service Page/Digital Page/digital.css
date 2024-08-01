@@ -1,9 +1,19 @@
+.overlays-txt {
+    width: 90%;
+}
+
+.overlays-txt p {
+    width: 100%;
+    font-size: 3.5em;
+}
+
 .digi-sect {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: 10px auto;
+    margin-top: 50px;
 }
 
 .digi-box1 {
@@ -12,26 +22,35 @@
 }
 
 .digi-box2 {
-    width: 50%;
+    width: 45%;
 }
 
 .digi-box1 img {
-    width: 75%;
+    width: 100%;
 }
 
 .digi-box2 p{
-    font-size: 1.5em;
-    line-height: 35px;
+    font-size: 1em;
+    line-height: 30px;
     padding-left: 1px;
 }
 
 @media (max-width: 850px) {
+    .overlays-txt {
+        width: 90%;
+    }
+
+    .overlays-txt p {
+        font-size: 2.5em;
+        width: 100%;
+    }    
+    
     .digi-sect {
         display: block;
     }
 
     .digi-box1 {
-        width: 70%;
+        width: 90%;
         margin: 10px auto;
         padding: 0;
     }
@@ -46,7 +65,40 @@
     }
 
     .digi-box2 p{
-        font-size: 1.2em;
-        line-height: 25px;/
+        font-size: .8em;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .overlays-txt {
+        width: 90%;
+    }
+
+    .overlays-txt p {
+        font-size: 1.7em;
+        width: 100%;
+    }
+
+    .digi-box1 {
+        width: 90%;
+        margin: 10px auto;
+        padding: 0;
+    }
+
+    .digi-box1 img {
+        width: 100%;
+    }
+
+    .digi-box2 {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .digi-box2 p{
+        font-size: .8em;
+        line-height: 20px;
+        margin-top: 20px;
     }
 }

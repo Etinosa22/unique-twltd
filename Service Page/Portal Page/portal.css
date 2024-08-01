@@ -1,13 +1,23 @@
+.overlays-txt {
+    width: 90%;
+}
+
+.overlays-txt p {
+    width: 100%;
+    font-size: 3.5em;
+}
+
 .port-sect {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: 10px auto;
+    margin-top: 50px;
 }
 
 .port-box1 {
-    width: 50%;
+    width: 40%;
     padding: 10px;
 }
 
@@ -16,22 +26,31 @@
 }
 
 .port-box1 img {
-    width: 75%;
+    width: 100%;
 }
 
 .port-box2 p{
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 35px;
     padding-left: 1px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 850px) {
+    .overlays-txt {
+        width: 90%;
+    }
+
+    .overlays-txt p {
+        font-size: 2.5em;
+        width: 100%;
+    }
+
     .port-sect {
         display: block;
     }
 
     .port-box1 {
-        width: 70%;
+        width: 90%;
         margin: 10px auto;
     }
 
@@ -45,7 +64,40 @@
     }
 
     .port-box2 p {
-        font-size: 1.3em;
-        line-height: 30px;
+        font-size: 1em;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .overlays-txt {
+        width: 90%;
+    }
+
+    .overlays-txt p {
+        font-size: 1.7em;
+        width: 100%;
+    }
+
+    .port-box1 {
+        width: 90%;
+        margin: 10px auto;
+        padding: 0;
+    }
+
+    .port-box1 img {
+        width: 100%;
+    }
+
+    .port-box2 {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .port-box2 p{
+        font-size: .8em;
+        line-height: 20px;
+        margin-top: 20px;
     }
 }

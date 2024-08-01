@@ -49,7 +49,7 @@ section.fade-up.visible {
 }
 
 .overlays-txt {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -58,7 +58,7 @@ section.fade-up.visible {
     width: 100%;
     margin: 0 auto;
     letter-spacing: 1px;
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 700;
 }
 
@@ -67,11 +67,12 @@ section.fade-up.visible {
     margin: 20px auto;
     display: flex;
     /* align-items: center; */
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .about-box {
-    width: 60%;
+    width: 100%;
     padding: 20px;
 }
 
@@ -82,13 +83,13 @@ section.fade-up.visible {
 
 .about-box h1 {
     margin: 10px 0 20px;
-    font-size: 3em;
-    font-weight: 700;
+    font-size: 2.1em;
+    font-weight: 800;
     color: #08a045;
 }
 
 .about-box p {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 30px;
     text-align: justify;
     font-weight: 400;
@@ -100,9 +101,13 @@ section.fade-up.visible {
 }
 
 .about-box h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #08a045;
     margin: 15px 0;
+}
+
+.about-box img {
+    width: 25%;
 }
 
 @media (max-width: 950px) {
@@ -124,7 +129,6 @@ section.fade-up.visible {
     }
 
     .overlays-txt {
-        /* margin: 110px auto; */
         width: 80%;
         padding: 0;
         display: flex;
@@ -134,7 +138,7 @@ section.fade-up.visible {
 
     .overlays-txt p {
         width: 100%;
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .about-sect {
@@ -152,11 +156,32 @@ section.fade-up.visible {
     }
 
     .about-box h2 {
-        font-size: 2.2em;
+        font-size: 2em;
     }
 
     .about-box p {
-        font-size: 1.2em;
+        font-size: 1.1em;
         text-align: justify;
+    }
+}
+
+@media (max-width: 500px) {
+    .overlays-txt {
+        width: 90%;
+    }
+
+    .overlays-txt p {
+        font-size: 1.7em;
+    }
+
+    .about-box h1  {
+        font-size: 1.8em;
+        border: 2px solid;
+    }
+
+    .about-box p {
+        font-size: .9em;
+        text-align: justify;
+        line-height: 20px;
     }
 }

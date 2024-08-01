@@ -1,9 +1,19 @@
+.overlays-txt {
+    width: 90%;
+}
+
+.overlays-txt p {
+    width: 100%;
+    font-size: 3.5em;
+}
+
 .soft-sect {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
     margin: 10px auto;
+    margin-top: 50px;
 }
 
 .soft-box1 {
@@ -19,19 +29,29 @@
     width: 100%;
 }
 
+.soft-box2 {
+    padding: 5px;
+}
+
 .soft-box2 p{
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 35px;
     padding-left: 15px;
 }
 
 @media (max-width: 850px) {
+
+    .overlays-txt p {
+        font-size: 2.5em;
+        width: 100%;
+    }
+
     .soft-sect {
         display: block;
     }
 
-    .soft-box1 {
-        width: 70%;
+    .soft-box1 {        
+        width: 80%;
         margin: 10px auto;
     }
 
@@ -41,8 +61,41 @@
     }
 
     .soft-box2 p{
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 25px;
         padding: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .overlays-txt {
+        width: 90%;
+    }
+
+    .overlays-txt p {
+        font-size: 1.7em;
+        width: 100%;
+    }
+
+    .soft-box1 {
+        width: 80%;
+        margin: 10px auto;
+        padding: 0;
+    }
+
+    .soft-box1 img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .soft-box2 {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .soft-box2 p{
+        font-size: .8em;
+        line-height: 20px;
+        margin-top: 20px;
     }
 }

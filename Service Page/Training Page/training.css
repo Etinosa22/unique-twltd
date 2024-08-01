@@ -1,9 +1,19 @@
+.overlays-txt {
+    width: 90%;
+}
+
+.overlays-txt p {
+    width: 100%;
+    font-size: 3.5em;
+}
+
 .training-sect {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: 10px auto;
+    margin-top: 50px;
 }
 
 .training-box1 {
@@ -20,18 +30,32 @@
 }
 
 .training-box2 p{
-    font-size: 1.5em;
-    line-height: 35px;
+    font-size: 1em;
+    line-height: 30px;
     padding-left: 1px;
 }
 
 @media (max-width: 950px) {
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .overlays-txt {
+        width: 90%;
+    }
+
+    .overlays-txt p {
+        font-size: 2em;
+        width: 100%;
+    }
+
     .training-sect {
         display: block;
     }
 
     .training-box1 {
-        width: 70%;
+        width: 90%;
         margin: 10px auto;
     }
 
@@ -44,8 +68,41 @@
         text-align: justify;
     }
 
-    .Gtrainingbox2 p {
-        font-size: 1.3em;
+    .training-box2 p {
+        font-size: .8em;
         line-height: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .overlays-txt {
+        width: 90%;
+    }
+
+    .overlays-txt p {
+        font-size: 1.7em;
+        width: 100%;
+    }
+
+    .training-box1 {
+        width: 80%;
+        margin: 10px auto;
+        padding: 0;
+    }
+
+    .training-box1 img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .training-box2 {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .training-box2 p{
+        font-size: .8em;
+        line-height: 20px;
+        margin-top: 20px;
     }
 }
