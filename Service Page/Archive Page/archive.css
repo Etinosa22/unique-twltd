@@ -80,6 +80,7 @@
     .overlays-txt p {
         font-size: 1.7em;
         width: 100%;
+        font-weight: 600;
     }
 
     .arch1-box {
@@ -99,12 +100,14 @@
     }
 
     .arch2-box p{
-        font-size: .8em;
+        font-size: .9em;
         line-height: 25px;
         margin-top: 20px;
     }
 
     .arch2-box ul li {
-        font-size: .8em;
+        font-size: .9em;
+        text-align: left;
+        font-family: "Poppins", sans-serif;
     } 
 }

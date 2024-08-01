@@ -73,8 +73,15 @@
     }
 
     .overlays-txt p {
-        font-size: 1.7em;
+        font-size: 1.5em;
         width: 100%;
+        font-weight: 600;
+    }
+
+    .soft-sect {
+        margin: 0;
+        margin-top: 10px;
+        border: 2px solid red;
     }
 
     .soft-box1 {
@@ -94,7 +101,7 @@
     }
 
     .soft-box2 p{
-        font-size: .8em;
+        font-size: .9em;
         line-height: 20px;
         margin-top: 20px;
     }

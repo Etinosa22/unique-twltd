@@ -175,10 +175,34 @@ section.fade-up.visible {
 }
 
 @media (max-width: 500px) {
+    .container {
+        height: 20vh;
+      }
+
+      .swiper-slide img {
+        height: inherit;
+      }
+    
+      .overlays {
+        width: 100%;
+        margin: 0;
+        height: inherit;
+      }
+    
+      .overlays-txt {
+        width: 90%;
+      }
+    
+      .overlays-txt p {
+        font-size: 1.7em;
+        height: inherit;
+      }
+    
     .overlays-txt p {
         width: 100%;
         font-size: 1.7em;
     }
+
     .serv-sect {
         width: 90%;
         display: grid;
@@ -189,6 +213,7 @@ section.fade-up.visible {
     .content h3 a{
         font-size: .8em;
         height: auto;
+        font-weight: 500;
     }
 }
 
