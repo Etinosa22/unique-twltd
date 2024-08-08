@@ -42,7 +42,7 @@ header{
 
 .form-sect {
     width: 90%;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .form-cont  {
@@ -100,6 +100,7 @@ hr {
     opacity: 30%;
     width: 80%;
 }
+
 
 .form-box2 {
     padding: 20px;
