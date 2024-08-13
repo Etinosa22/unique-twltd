@@ -271,6 +271,7 @@ section.fade-up.visible {
   background: rgba(201, 199, 200, 0.147);
   transition: 0.2s;  
   border-radius: 10px;
+  height: 400px;
 }
 
 .service_cont:hover {
@@ -294,22 +295,21 @@ section.fade-up.visible {
 }
 
 .service_box2 {
-  margin: 10px 15px;
-  padding: 10px 20px;
   text-align: center;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
 }
 
 .service_box2 h3 {
   font-size: 1.2em;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .service_box2 p {
-  font-size: .8em;
-  line-height: 25px;
-  font-weight: 400;
-  margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .service_box2 a {
