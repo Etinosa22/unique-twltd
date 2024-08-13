@@ -267,7 +267,7 @@ textarea::placeholder {
     }
 
     .form-cont {
-        width: 90%;
+        width: 95%;
         margin: 10px auto;
         display: block;
     }
@@ -275,15 +275,20 @@ textarea::placeholder {
     .form-box1 {
         margin: 0 auto;
         padding: 20px;
-        width: 90%;
+        width: 100%;
     }
 
     .address h3,.email h3,.phone h3 {
         font-size: 1.1em;
+        margin-left: 10px;
+        margin-bottom: 0;
+        margin-top: 10px;
+        padding-top: 5px;
     }
 
     .icon-cont {
-        width: 100%;
+        width: 90%;
+        margin: 10px auto;
     }
 
     .loca p {
@@ -298,11 +303,16 @@ textarea::placeholder {
         margin: 0 auto;
     }
 
+    hr {
+        width: 90%;
+        margin: auto;
+    }
+
     .form-box2 {
         width: 90%;
         margin: 0;
-        padding: 20px;
-        margin: 5px auto;
+        padding: 0 20px;
+        margin: 5px auto 0;
     }
 
     .form-txt {
@@ -340,6 +350,8 @@ textarea::placeholder {
 
     .map {
         margin: 0;
+        outline: 0;
+        border: 0;
     }
 
 }

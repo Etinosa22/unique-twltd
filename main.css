@@ -122,14 +122,14 @@ header {
 }
 
 .overlay-txt p:nth-child(1) {
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: 500;
   margin: 0 auto;
   letter-spacing: 2px;
 }
 
 .overlay-txt p:nth-child(2) {
-  font-size: 3.5em;
+  font-size: 4em;
   font-weight: 800;
   /* line-height: 55px; */
   width: 70%;
@@ -137,7 +137,7 @@ header {
 }
 
 .overlay-txt p:nth-child(3) {
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: 300;
   width: 56%;
   margin: 0 auto;
@@ -267,7 +267,6 @@ section.fade-up.visible {
 }
 
 .service_cont {
-  min-height: 480px;
   margin: auto auto;
   background: rgba(201, 199, 200, 0.147);
   transition: 0.2s;  
@@ -530,7 +529,7 @@ footer {
   }
 
    .navbar .logo {
-    width: 25%;
+    width: 35%;
   }
 
   .nav-links {
@@ -804,6 +803,15 @@ footer {
     padding: 10px 0;
   }
 
+  .cnt {
+    padding: 0;
+  }
+
+  .foot-cont hr {
+    margin: 0;
+    width: 100%;
+  }
+
   .foot-card {
     width: 100%;
     margin: 10px auto;
@@ -816,7 +824,7 @@ footer {
 
 @media (max-width: 500px) {
   .container {
-    height: 45vh;
+    height: 40vh;
   }
 
   .overlay {
@@ -831,7 +839,7 @@ footer {
   }
 
   .swiper-slide img {
-    height: 45vh;
+    height: 40vh;
     width: 100%;
   }
 
@@ -852,14 +860,14 @@ footer {
 
   .overlay-txt p:nth-child(3) {
     font-size: .8em;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .btn-bg {
     padding: 8px 10px;
-    font-size: .7em;
+    font-size: .6em;
     letter-spacing: 0px;
     font-weight: 500;
   }
@@ -876,10 +884,18 @@ footer {
     text-align: justify;
   }
 
+  .service_cont {
+    height: 420px;
+  }
+
+  .service_box .fa-solid {
+    padding: 0;
+  }
+
   .service_box2 h3 {
     padding: 0;
     margin: 0;
-    width: 80%;
+    width: 90%;
     font-size: 1.2em;
     margin: 2px auto;
   }
@@ -887,12 +903,12 @@ footer {
   .service_box2 p {
     font-size: .8em;
     font-weight: 00;
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 0 5px;
     line-height: 25px;
     text-align: center;
     width: 90%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .service_box2 a {
@@ -903,7 +919,7 @@ footer {
 
   .archive-box2 h1 {
     width: 90%;
-    font-size: 1.7em;
+    font-size: 1.5em;
     margin: 5px auto;
   }
   
