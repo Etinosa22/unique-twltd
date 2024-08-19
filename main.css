@@ -741,9 +741,8 @@ footer {
     font-weight: 00;
     margin: 10px auto;
     padding: 0 5px;
-    /* line-height: 30px; */
     text-align: justify;
-    width: 90%;
+    width: 80%;
     margin-bottom: 20px;
   }
 
